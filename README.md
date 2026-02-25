@@ -8,3 +8,7 @@ This is a Markdown. I am just writing text.
 
 This is how i get *italics*
 THis is how i het **bold**
+
+THis is how i get an image:
+
+![](Slimshady.png)
