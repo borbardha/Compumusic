@@ -37,9 +37,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap-890b18279d630a8af0357820e6fbb7bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="index_files/libs/bootstrap/bootstrap-dark-890b18279d630a8af0357820e6fbb7bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="index_files/libs/bootstrap/bootstrap-890b18279d630a8af0357820e6fbb7bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-3f96a69bce37fac7d12bbcf78173b765.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="dark">
+<link href="index_files/libs/bootstrap/bootstrap-dark-3f96a69bce37fac7d12bbcf78173b765.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="index_files/libs/bootstrap/bootstrap-3f96a69bce37fac7d12bbcf78173b765.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="dark">
 <script src="index_files/libs/quarto-dashboard/quarto-dashboard.js"></script>
 <script src="index_files/libs/quarto-dashboard/stickythead.js"></script>
 
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
         <div class="navbar-author">Bardha Berisha</div>
       </div>
     </div>
-<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-key-similarity" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#key-similarity" data-scrolling="false" href="#key-similarity" aria-controls="key-similarity" aria-selected="true"><span class="nav-link-text">Key Similarity</span></a></li><li class="nav-item" role="presentation"><a id="tab-chord-similarity" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#chord-similarity" data-scrolling="false" href="#chord-similarity" aria-controls="chord-similarity" aria-selected="false"><span class="nav-link-text">Chord Similarity</span></a></li></ul></div></div>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-key-similarity" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#key-similarity" data-scrolling="false" href="#key-similarity" aria-controls="key-similarity" aria-selected="true"><span class="nav-link-text">Key Similarity</span></a></li><li class="nav-item" role="presentation"><a id="tab-chord-similarity" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#chord-similarity" data-scrolling="false" href="#chord-similarity" aria-controls="chord-similarity" aria-selected="false"><span class="nav-link-text">Chord Similarity</span></a></li><li class="nav-item" role="presentation"><a id="tab-novelty-functions" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#novelty-functions" data-scrolling="false" href="#novelty-functions" aria-controls="novelty-functions" aria-selected="false"><span class="nav-link-text">Novelty functions</span></a></li><li class="nav-item" role="presentation"><a id="tab-tempograms" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#tempograms" data-scrolling="false" href="#tempograms" aria-controls="tempograms" aria-selected="false"><span class="nav-link-text">Tempograms</span></a></li></ul></div></div>
 </nav>
 </header>
 <div class="page-layout-custom quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages">  
@@ -171,6 +171,125 @@ grid-auto-rows: minmax(0, 1fr);">
 </div>
 <div id="tabset-4-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-4-2-tab">
 <p>This chord similarity plot also visualizes how well the chroma features match different chord templates throughout the song. The x-axis shows time and the y-axis lists the possible chords. Brighter colours represent a stronger similarity between the chroma features and a chord template. Compared to The Real Slim Shady, the plot shows slightly clearer horizontal patterns where certain chords remain stronger for longer periods. This suggests a somewhat more consistent harmonic structure. However, multiple chords still appear similar at the same time, which is common in hip-hop production where chords may be implied rather than clearly played. The result is a chord estimation with some ambiguity but slightly more stable regions.</p>
+</div>
+</div>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+</div><div id="novelty-functions" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-novelty-functions">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 60fr) minmax(3em, 40fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 100fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="panel-tabset html-fill-item html-fill-container">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true" href="">The Real Slim Shady</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false" href="">So Fresh So Clean</a></li></ul>
+<div class="tab-content html-fill-item html-fill-container">
+<div id="tabset-5-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<img src="Novelty_slim_shady.png" class="img-fluid" style="width:100.0%">
+</div>
+<div id="tabset-5-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<img src="Novelty_soFresh.png" class="img-fluid" style="width:100.0%">
+</div>
+</div>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 100fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="panel-tabset html-fill-item html-fill-container">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true" href="">The real Slim Shady</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false" href="">So fresh So Clean</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false" href="">Comparison of the two tracks</a></li></ul>
+<div class="tab-content html-fill-item html-fill-container">
+<div id="tabset-6-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<p>The novelty plot between 30 and 80 seconds shows very dense and frequent peaks, with many values reaching high novelty levels. This indicates that there are many rhythmic onsets occurring in a short amount of time. Such a pattern is typical for hip-hop production, where hi-hats, snares, and kick drums occur rapidly and create a rhythmically active texture. The peaks are distributed quite evenly across the time axis, which suggests that the rhythmic structure of the track is stable and consistent.</p>
+<p>Several peaks reach very high values (above 40), which likely correspond to strong drum hits or accented musical events, such as snare hits or moments where the vocal delivery becomes more prominent. Because these peaks appear regularly, they support the idea discussed in Chapter 6 that beat positions often coincide with strong onset events in the music.</p>
+<p>Musically, this pattern reflects the tight and repetitive groove typical of rap production. The high density of peaks suggests that many small percussive elements—such as hi-hats, additional percussion, and vocal accents—are layered together. As a result, the novelty curve reveals strong rhythmic regularity, a high onset density, and clearly defined beat-aligned events.</p>
+</div>
+<div id="tabset-6-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<p>The novelty plot for So Fresh, So Clean appears much sparser than the previous example, showing fewer peaks and generally lower novelty values over time. This indicates that strong onset events occur less frequently in the track. Most values remain relatively low, with only occasional higher spikes that stand out from the rest of the curve. These isolated peaks likely correspond to stronger musical events such as drum hits or structural accents in the arrangement.</p>
+<p>The larger gaps between peaks suggest that rhythmic accents are spaced further apart. As a result, the rhythmic texture appears smoother and less dense. Compared to The Real Slim Shady, the track contains fewer rapid percussive events and allows more space between rhythmic elements. This spacing creates a more relaxed and spacious groove.</p>
+<p>Musically, this reflects the laid-back style typical of the track. The lower onset density indicates that fewer percussive elements are layered at the same time, which contributes to a clearer and more open rhythmic structure. Overall, the novelty curve suggests a groove that relies on occasional strong accents rather than constant rhythmic activity, resulting in a smoother and more relaxed rhythmic feel.</p>
+</div>
+<div id="tabset-6-3" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-6-3-tab">
+<p>The difference between the two novelty curves highlights the contrast in their rhythmic styles. The Real Slim Shady shows a very high density of peaks, indicating frequent onset events and a rhythmically busy texture. The peaks occur regularly and close together, suggesting a tight and consistent beat structure with many layered percussive elements such as hi-hats, kicks, and snares.</p>
+<p>In contrast, So Fresh, So Clean displays a much lower peak density. The peaks appear more spaced out and generally reach lower values, which points to a more relaxed rhythmic activity. This creates a smoother groove with fewer percussive layers and more space between musical events.</p>
+<p>From a beat tracking perspective, the novelty curve of The Real Slim Shady provides many potential onset candidates due to its dense rhythmic activity. So Fresh, So Clean, on the other hand, offers fewer but clearer rhythmic accents, which reflect its more laid-back and spacious groove.</p>
+</div>
+</div>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+</div><div id="tempograms" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-tempograms">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 60fr) minmax(3em, 40fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 100fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="panel-tabset html-fill-item html-fill-container">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true" href="">The Real Slim Shady</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false" href="">So Fresh So Clean</a></li></ul>
+<div class="tab-content html-fill-item html-fill-container">
+<div id="tabset-7-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-7-1-tab">
+<img src="dft_slimshady.png" class="img-fluid" style="width:100.0%">
+</div>
+<div id="tabset-7-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-7-2-tab">
+<img src="dftsofresh.png" class="img-fluid" style="width:100.0%">
+</div>
+</div>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 100fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="panel-tabset html-fill-item html-fill-container">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-8-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-1" role="tab" aria-controls="tabset-8-1" aria-selected="true" href="">The real Slim Shady</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-2" role="tab" aria-controls="tabset-8-2" aria-selected="false" href="">So fresh So Clean</a></li></ul>
+<div class="tab-content html-fill-item html-fill-container">
+<div id="tabset-8-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-8-1-tab">
+<p>The DFT tempogram of The Real Slim Shady shows a clear horizontal band around ~210 BPM that remains visible across most of the time axis. In a DFT tempogram, bright horizontal lines indicate tempos that strongly match periodic patterns in the novelty function. According to Chapter 6, this means that the novelty curve contains regular repeating onset patterns at that tempo.</p>
+<p>The stability of this band suggests that the song maintains a consistent rhythmic pulse throughout the track. In hip-hop, this higher tempo band often corresponds to subdivisions of the main beat (for example eighth or sixteenth-note pulses), which explains why the dominant tempo appears higher than the perceived beat. Additional weaker bands at higher tempo ranges likely represent harmonics of the rhythmic periodicity.</p>
+<p>Overall, the tempogram indicates a stable and clearly defined tempo, reflecting the tight and repetitive rhythmic structure typical of rap production.</p>
+</div>
+<div id="tabset-8-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-8-2-tab">
+<p>The DFT tempogram for So Fresh, So Clean looks more diffuse and less intense, with fewer strong horizontal bands. The most noticeable energy appears around ~330 BPM, but it is concentrated only at the beginning of the excerpt and fades afterwards.</p>
+<p>Compared to The Real Slim Shady, the tempo representation is less stable and less pronounced over time. This suggests that the novelty function contains weaker periodic patterns, which results from fewer and more spaced onset events. According to the book, strong and consistent peaks in a novelty function typically produce clearer tempo bands in the tempogram.</p>
+<p>Because the rhythmic activity in this track is more relaxed and sparse, the periodic structure is less dominant in the analysis. As a result, the tempogram shows weaker tempo evidence and fewer persistent tempo bands, reflecting the smoother and more laid-back groove of the track.</p>
 </div>
 </div>
 </div>
