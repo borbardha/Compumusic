@@ -213,3 +213,48 @@ Compared to The Real Slim Shady, the tempo representation is less stable and les
 Because the rhythmic activity in this track is more relaxed and sparse, the periodic structure is less dominant in the analysis. As a result, the tempogram shows weaker tempo evidence and fewer persistent tempo bands, reflecting the smoother and more laid-back groove of the track.
 
 :::
+
+
+
+# Dendograms
+
+## Column{width=100%}
+
+### Row {height=100%}
+
+
+
+::: {.panel-tabset }
+
+
+## 90's Playlist
+
+### row{height=50%}
+
+![](clustering_1990s_instrumental.png){width=80%}
+
+### row(height=50%)
+![](clustering_1990s.png){width=80%}
+
+
+## 00's Playlist
+
+### row{height=50%}
+
+![](clustering_2000s_instrumental.png){width=80%}
+
+### row{height=50%}
+![](clustering_2000s_instrumental.png){width=80%}
+
+## 10's Playlist
+
+### row{height=50%}
+![](clustering_2000s_instrumental.png){width=80%}
+
+### row{height=50%}
+![](clustering_2000s.png){width=80%}
+:::
+
+
+
+
