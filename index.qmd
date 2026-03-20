@@ -244,15 +244,15 @@ Because the rhythmic activity in this track is more relaxed and sparse, the peri
 ![](clustering_2000s_instrumental.png){width=80%}
 
 ### row{height=50%}
-![](clustering_2000s_instrumental.png){width=80%}
+![](clustering_2000s.png){width=80%}
 
 ## 10's Playlist
 
 ### row{height=50%}
-![](clustering_2000s_instrumental.png){width=80%}
+![](clustering_2010s_instrumental.png){width=80%}
 
 ### row{height=50%}
-![](clustering_2000s.png){width=80%}
+![](clustering_ 2010s.png){width=80%}
 :::
 
 
